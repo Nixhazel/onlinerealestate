@@ -12,10 +12,10 @@ const Body: React.FC<any> = ({ setSuccess }) => {
 				
 			</div>
 			<Form setSuccess={setSuccess} />
-			<p className='mt-2 mb-4 text-[#bababa] text-center text-[10px]'>
+			{/* <p className='mt-2 mb-4 text-[#bababa] text-center text-[10px]'>
 				By clicking "Submit" I agree to use my data.
-			</p>
-			<div className='flex flex-col items-start w-full'>
+			</p> */}
+			<div className='flex flex-col items-start w-full mt-6'>
 				<h3 className=' leading-snug text-center text-[20px] font-semibold text-[#F9DEB3] mb-3'>
 					How it works ?
 				</h3>
