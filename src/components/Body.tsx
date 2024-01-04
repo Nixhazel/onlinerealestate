@@ -9,9 +9,7 @@ const Body: React.FC<any> = ({ setSuccess }) => {
 					1. Fill in your details.
 				</p>
 				<p className='text-base text-white text-center'>2. Receive an offer.</p>
-				<p className='text-base text-white text-center'>
-					3. Receive a payment link and pay.
-				</p>
+				
 			</div>
 			<Form setSuccess={setSuccess} />
 			<p className='mt-2 mb-4 text-[#bababa] text-center text-[10px]'>
@@ -28,28 +26,28 @@ const Body: React.FC<any> = ({ setSuccess }) => {
 					- the expert will send you a sales offer for the project that is the
 					most potentially profitable within the range of your budget;
 				</p>
-				<p className=' text-sm text-white text-left mb-3'>
+				{/* <p className=' text-sm text-white text-left mb-3'>
 					- once you confirm that you are ready to go ahead you will receive a
 					payment link;
-				</p>
+				</p> */}
 				<p className=' text-sm text-white text-left mb-3'>
 					- all you need to pay is only 5% from the property price;
 				</p>
 				<p className=' text-sm text-white text-left mb-3'>
 					- the payment you make goes directly to the developer towards the
-					chosen property and does not include any charges for Daria or the
+					chosen property and does not include any charges for the
 					expert;
 				</p>
-				<p className=' text-sm text-white text-left mb-3'>
+				{/* <p className=' text-sm text-white text-left mb-3'>
 					- send a screenshot of successful payment to confirm your purchase;
-				</p>
+				</p> */}
 				<p className=' text-sm text-white text-left mb-3'>
 					- congratulations! You are a successful Real Estate investor;
 				</p>
-				<p className=' text-sm text-white text-left mb-3'>
+				{/* <p className=' text-sm text-white text-left mb-3'>
 					- the expert will stay in touch with you to help you to continue the
 					payments and to receive the ownership documents;
-				</p>
+				</p> */}
 				<p className=' text-sm text-white text-left mb-3'>
 					- along these steps feel free to ask any question or advice from the
 					expert at any moment.
