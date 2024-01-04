@@ -1,12 +1,20 @@
-import { useState } from 'react'
+
+import { useState } from 'react';
 import './App.css'
-import Home from './components/Home';
+import Body from './components/Body';
+import FooterLine from './components/FooterLine';
+import ProfileCard from './components/ProfileCard';
+import SuccessMobal from './components/SuccessMobal';
 
 function App() {
+  const [success, setSuccess] = useState<any>(false);
 
   return (
 		<>
-			<Home/>
+			{success && <SuccessMobal/>}
+			<ProfileCard />
+			<Body setSuccess={setSuccess} />
+			<FooterLine />
 		</>
 	);
 }
