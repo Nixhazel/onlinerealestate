@@ -74,7 +74,7 @@ const Form: React.FC<any> = ({ setSuccess }) => {
 						id='amount'
 						type='text'
 						name='amount'
-						placeholder='Your budget'
+						placeholder='Your budget ( $ )'
 						className='outline-none bg-inherit border-none w-full p-3 placeholder-[#88A198] placeholder-opacity-50 text-white'
 						required
 					/>
